@@ -1,0 +1,31 @@
+.top {
+	width: 1000px;
+	height: 100px;
+	background-color: yellow;
+	position: relative;
+}
+.bottom {
+	width: 1000px;
+	height: 100px;
+	background-color: red;
+}
+
+.cover {
+	width: 100px;
+	height: 110px;
+	background-color: green;
+	position: absolute;
+	top: 0px;
+	left: 160px;
+	z-index: 1;
+}
+.main {
+	width: 1000px;
+	height: 500px;
+	background-color: brown;
+}
+.cover:hover{
+	background-color:red;
+	opacity: 0.5;
+}
+	
